@@ -1,0 +1,15 @@
+#_grid_control_form {
+	padding: 10px 20px;
+}
+
+#_grid_controls_mrb {
+	background-color: #ccc;
+	border: 1px solid #666;
+	color: #333;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 11px;
+	position: fixed;
+		top: 0px;
+		left: 0px; 
+	z-index: 999999;
+}
