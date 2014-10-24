@@ -1,5 +1,5 @@
 javascript:(function(){
 var jsCode = document.createElement('script');
-jsCode.setAttribute('src', 'http://YOURDOMAIN/js/grid.js');
+jsCode.setAttribute('src', 'https://raw.githubusercontent.com/nickrichter/webpage-alignment-grid/master/js/grid.js');
 document.body.appendChild(jsCode);
 } () );

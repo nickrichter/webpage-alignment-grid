@@ -23,7 +23,7 @@ function addControlDiv() {
 	myCss.setAttribute("id", "_grid_css_mrb");
 	myCss.setAttribute("rel", "stylesheet");
 	myCss.setAttribute("type", "text/css");
-	myCss.setAttribute("href", "http://YOURDOMAIN/css/grid.css");
+	myCss.setAttribute("href", "https://raw.githubusercontent.com/nickrichter/webpage-alignment-grid/master/css/grid.css");
 	
 	// Make the div to hold the controls
 	controlDiv = document.createElement('div');
@@ -42,17 +42,17 @@ function addControlDiv() {
 function addGridOverlay(px) {
 	if( myDiv != null ) {
 		if( px != 4 ) {
-			myDiv.style.background = 'url(http://YOURDOMAIN/img/grid' + px + '.png) 50% 50% repeat';
+			myDiv.style.background = 'url(https://raw.githubusercontent.com/nickrichter/webpage-alignment-grid/master/img/grid' + px + '.png) 50% 50% repeat';
 		}else{
-			myDiv.style.background = 'url(http://YOURDOMAIN/img/column_overlay_4.png) 50% 0 repeat-y';
+			myDiv.style.background = 'url(https://raw.githubusercontent.com/nickrichter/webpage-alignment-grid/master/img/column_overlay_4.png) 50% 0 repeat-y';
 		}
 	}else{
 		myDiv = document.createElement('div');
 		myDiv.id = '_grid_div_mrb';
 		if( px != 4 ) {
-			myDiv.style.background = 'url(http://YOURDOMAIN/img/grid' + px + '.png) 50% 50% repeat';
+			myDiv.style.background = 'url(https://raw.githubusercontent.com/nickrichter/webpage-alignment-grid/master/img/grid' + px + '.png) 50% 50% repeat';
 		}else{
-			myDiv.style.background = 'url(http://YOURDOMAIN/img/column_overlay_4.png) 50% 0 repeat-y';
+			myDiv.style.background = 'url(https://raw.githubusercontent.com/nickrichter/webpage-alignment-grid/master/img/column_overlay_4.png) 50% 0 repeat-y';
 		}
 		myDiv.style.position = 'fixed';
 		myDiv.style.zIndex = '99999';
